@@ -17,5 +17,12 @@ int main() {
 		std::cout << str << std::endl;
 	}	
 
+	std::cout << std::endl;
+
+	// Using STL
+	std::cout << "With STL: " << std::endl;
+	for(std::vector<std::string>::iterator it = str_vec.begin(); it != str_vec.end(); it++) {
+		std::cout << *it << std::endl;
+	}	
 	return 0;
 }
